@@ -6,12 +6,12 @@ app.use(express.json());
 const livros = require("./livros.json");
 
 app.get('/livros', (request, response) => {
-    const { autor } = request.query; 
+    //const { autor } = request.query; 
     return response.json( livros )
 }); 
 
 app.post('/livros', (request, response) => {
-    // const { titulo, autor, anoPublicacao } = request.body;
+     const { titulo, autor, anoPublicacao } = request.body;
     return response.json( { titulo: titulo, autor: autor, ano: anoPublicao } )
 });
 
