@@ -1,0 +1,23 @@
+[ 
+    {
+        "id": 1, 
+        "titulo": "Campo Geral", 
+        "descricao": "Campo Geral é uma novela de Guimarães Rosa que narra o amadurecimento de Miguilim, uma criança do sertão mineiro. A narrativa traz aspectos do regionalismo e neologismos para contextualizar a família e o cotidiano.", 
+        "autor": "Guimarães Rosa", 
+        "anoPublicacao": 1959
+    },
+    {
+        "id": 2, 
+        "titulo": "Nove noites", 
+        "descricao": "Nove Noites é um romance-notícia de Bernardo de Carvalho que mescla diferentes narrativas e recria a história com base em um trágico fato real: o suposto suicídio de um antropólogo.", 
+        "autor": "Bernardo de Carvalho", 
+        "anoPublicacao": 2002
+    },
+    {
+        "id": 3, 
+        "titulo": "Terra Sonâmbula", 
+        "descricao": "No Moçambique pós-independência, mergulhado na devastadora guerra civil que se estendeu por dez anos, o velho Tuahir e o menino Muidinga empreendem uma viagem recheada de fantasias míticas.", 
+        "autor": "Mia Couto", 
+        "anoPublicacao": 1992
+    }
+]
