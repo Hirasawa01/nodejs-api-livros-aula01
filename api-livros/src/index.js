@@ -12,7 +12,7 @@ app.get('/livros', (request, response) => {
 
 app.post('/livros', (request, response) => {
      const { titulo, autor, anoPublicacao } = request.body;
-    return response.json( { titulo: titulo, autor: autor, ano: anoPublicao } )
+    return response.json( { titulo: titulo, autor: autor, ano: anoPublicacao } )
 });
 
 app.put('/livros/:id', (request, response) => { 
